@@ -32,7 +32,7 @@ jobs:
     
     - name: Run
       # Run your program with the given configuration
-      run: ./${{github.workspace}}/build/demo
+      run: ls -al ./${{github.workspace}}/build/
 
     - name: Test
       working-directory: ${{github.workspace}}/build
